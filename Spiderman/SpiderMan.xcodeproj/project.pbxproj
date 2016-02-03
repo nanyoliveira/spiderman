@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		541C265E1AC9E3DA310C8ED3 /* libPods-GingaOne-SpiderMan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57ACA39817CB559BB46DDB11 /* libPods-GingaOne-SpiderMan.a */; };
+		AEC7C5421C0E53F600DF9A52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC7C5411C0E53F600DF9A52 /* main.m */; };
+		AEC7C5451C0E53F600DF9A52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC7C5441C0E53F600DF9A52 /* AppDelegate.m */; };
+		AEC7C5481C0E53F600DF9A52 /* AOMagazineList.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC7C5471C0E53F600DF9A52 /* AOMagazineList.m */; };
+		AEC7C54B1C0E53F600DF9A52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC7C5491C0E53F600DF9A52 /* Main.storyboard */; };
+		AEC7C54D1C0E53F600DF9A52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC7C54C1C0E53F600DF9A52 /* Assets.xcassets */; };
+		AEC7C5501C0E53F600DF9A52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC7C54E1C0E53F600DF9A52 /* LaunchScreen.storyboard */; };
+		AEC7C55D1C0E680D00DF9A52 /* AOAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC7C55C1C0E680D00DF9A52 /* AOAPI.m */; };
+		F6014E751C0F394400C15907 /* AOMagazineThumbs.m in Sources */ = {isa = PBXBuildFile; fileRef = F6014E741C0F394400C15907 /* AOMagazineThumbs.m */; };
+		F6014E791C0F742100C15907 /* AODetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6014E781C0F742100C15907 /* AODetailsViewController.m */; };
+		F6014E7C1C0F745A00C15907 /* AOMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6014E7B1C0F745A00C15907 /* AOMeViewController.m */; };
+		F608E0E41C2C262300A65B07 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F608E0E31C2C262300A65B07 /* BaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C553364D403EB9C343E38C8 /* Pods-GingaOne-SpiderMan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GingaOne-SpiderMan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GingaOne-SpiderMan/Pods-GingaOne-SpiderMan.debug.xcconfig"; sourceTree = "<group>"; };
+		57ACA39817CB559BB46DDB11 /* libPods-GingaOne-SpiderMan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GingaOne-SpiderMan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9F1B5630E349ACBF82F6AA /* Pods-GingaOne-SpiderMan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GingaOne-SpiderMan.release.xcconfig"; path = "Pods/Target Support Files/Pods-GingaOne-SpiderMan/Pods-GingaOne-SpiderMan.release.xcconfig"; sourceTree = "<group>"; };
+		AEC7C53D1C0E53F600DF9A52 /* SpiderMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpiderMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC7C5411C0E53F600DF9A52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEC7C5431C0E53F600DF9A52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEC7C5441C0E53F600DF9A52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEC7C5461C0E53F600DF9A52 /* AOMagazineList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AOMagazineList.h; sourceTree = "<group>"; };
+		AEC7C5471C0E53F600DF9A52 /* AOMagazineList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOMagazineList.m; sourceTree = "<group>"; };
+		AEC7C54A1C0E53F600DF9A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEC7C54C1C0E53F600DF9A52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEC7C54F1C0E53F600DF9A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEC7C5511C0E53F600DF9A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC7C55B1C0E680D00DF9A52 /* AOAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOAPI.h; sourceTree = "<group>"; };
+		AEC7C55C1C0E680D00DF9A52 /* AOAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOAPI.m; sourceTree = "<group>"; };
+		F6014E721C0F255C00C15907 /* AOAPIProtocolListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AOAPIProtocolListener.h; path = ../AOAPIProtocolListener.h; sourceTree = "<group>"; };
+		F6014E731C0F394400C15907 /* AOMagazineThumbs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOMagazineThumbs.h; sourceTree = "<group>"; };
+		F6014E741C0F394400C15907 /* AOMagazineThumbs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOMagazineThumbs.m; sourceTree = "<group>"; };
+		F6014E771C0F742100C15907 /* AODetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AODetailsViewController.h; sourceTree = "<group>"; };
+		F6014E781C0F742100C15907 /* AODetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AODetailsViewController.m; sourceTree = "<group>"; };
+		F6014E7A1C0F745A00C15907 /* AOMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOMeViewController.h; sourceTree = "<group>"; };
+		F6014E7B1C0F745A00C15907 /* AOMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOMeViewController.m; sourceTree = "<group>"; };
+		F608E0E21C2C262300A65B07 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F608E0E31C2C262300A65B07 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEC7C53A1C0E53F600DF9A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541C265E1AC9E3DA310C8ED3 /* libPods-GingaOne-SpiderMan.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B9D888BA0F733FB54E3F913 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57ACA39817CB559BB46DDB11 /* libPods-GingaOne-SpiderMan.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A5546C97336CB8F609EF243 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C553364D403EB9C343E38C8 /* Pods-GingaOne-SpiderMan.debug.xcconfig */,
+				6B9F1B5630E349ACBF82F6AA /* Pods-GingaOne-SpiderMan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AEC7C5341C0E53F600DF9A52 = {
+			isa = PBXGroup;
+			children = (
+				AEC7C53F1C0E53F600DF9A52 /* SpiderMan */,
+				AEC7C53E1C0E53F600DF9A52 /* Products */,
+				4A5546C97336CB8F609EF243 /* Pods */,
+				2B9D888BA0F733FB54E3F913 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AEC7C53E1C0E53F600DF9A52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEC7C53D1C0E53F600DF9A52 /* SpiderMan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEC7C53F1C0E53F600DF9A52 /* SpiderMan */ = {
+			isa = PBXGroup;
+			children = (
+				F6014E761C0F73FA00C15907 /* views */,
+				AEC7C55E1C0E681F00DF9A52 /* api */,
+				AEC7C5571C0E59E600DF9A52 /* thumbs */,
+				AEC7C5431C0E53F600DF9A52 /* AppDelegate.h */,
+				AEC7C5441C0E53F600DF9A52 /* AppDelegate.m */,
+				AEC7C5491C0E53F600DF9A52 /* Main.storyboard */,
+				AEC7C54C1C0E53F600DF9A52 /* Assets.xcassets */,
+				AEC7C54E1C0E53F600DF9A52 /* LaunchScreen.storyboard */,
+				AEC7C5511C0E53F600DF9A52 /* Info.plist */,
+				AEC7C5401C0E53F600DF9A52 /* Supporting Files */,
+			);
+			name = SpiderMan;
+			path = "GingaOne-SpiderMan";
+			sourceTree = "<group>";
+		};
+		AEC7C5401C0E53F600DF9A52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEC7C5411C0E53F600DF9A52 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEC7C5571C0E59E600DF9A52 /* thumbs */ = {
+			isa = PBXGroup;
+			children = (
+				F6014E731C0F394400C15907 /* AOMagazineThumbs.h */,
+				F6014E741C0F394400C15907 /* AOMagazineThumbs.m */,
+			);
+			name = thumbs;
+			sourceTree = "<group>";
+		};
+		AEC7C55E1C0E681F00DF9A52 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				F6014E721C0F255C00C15907 /* AOAPIProtocolListener.h */,
+				AEC7C55B1C0E680D00DF9A52 /* AOAPI.h */,
+				AEC7C55C1C0E680D00DF9A52 /* AOAPI.m */,
+			);
+			name = api;
+			sourceTree = "<group>";
+		};
+		F6014E761C0F73FA00C15907 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				AEC7C5461C0E53F600DF9A52 /* AOMagazineList.h */,
+				AEC7C5471C0E53F600DF9A52 /* AOMagazineList.m */,
+				F6014E771C0F742100C15907 /* AODetailsViewController.h */,
+				F6014E781C0F742100C15907 /* AODetailsViewController.m */,
+				F6014E7A1C0F745A00C15907 /* AOMeViewController.h */,
+				F6014E7B1C0F745A00C15907 /* AOMeViewController.m */,
+				F608E0E21C2C262300A65B07 /* BaseViewController.h */,
+				F608E0E31C2C262300A65B07 /* BaseViewController.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEC7C53C1C0E53F600DF9A52 /* SpiderMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC7C5541C0E53F600DF9A52 /* Build configuration list for PBXNativeTarget "SpiderMan" */;
+			buildPhases = (
+				CD7D42094E8A147B8199266D /* Check Pods Manifest.lock */,
+				AEC7C5391C0E53F600DF9A52 /* Sources */,
+				AEC7C53A1C0E53F600DF9A52 /* Frameworks */,
+				AEC7C53B1C0E53F600DF9A52 /* Resources */,
+				7FA4F4481D87BB808495301B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpiderMan;
+			productName = "GingaOne-SpiderMan";
+			productReference = AEC7C53D1C0E53F600DF9A52 /* SpiderMan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEC7C5351C0E53F600DF9A52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ariane Oliveira";
+				TargetAttributes = {
+					AEC7C53C1C0E53F600DF9A52 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = AEC7C5381C0E53F600DF9A52 /* Build configuration list for PBXProject "SpiderMan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEC7C5341C0E53F600DF9A52;
+			productRefGroup = AEC7C53E1C0E53F600DF9A52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEC7C53C1C0E53F600DF9A52 /* SpiderMan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEC7C53B1C0E53F600DF9A52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC7C5501C0E53F600DF9A52 /* LaunchScreen.storyboard in Resources */,
+				AEC7C54D1C0E53F600DF9A52 /* Assets.xcassets in Resources */,
+				AEC7C54B1C0E53F600DF9A52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FA4F4481D87BB808495301B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GingaOne-SpiderMan/Pods-GingaOne-SpiderMan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD7D42094E8A147B8199266D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEC7C5391C0E53F600DF9A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6014E751C0F394400C15907 /* AOMagazineThumbs.m in Sources */,
+				F608E0E41C2C262300A65B07 /* BaseViewController.m in Sources */,
+				F6014E791C0F742100C15907 /* AODetailsViewController.m in Sources */,
+				AEC7C5481C0E53F600DF9A52 /* AOMagazineList.m in Sources */,
+				AEC7C5451C0E53F600DF9A52 /* AppDelegate.m in Sources */,
+				F6014E7C1C0F745A00C15907 /* AOMeViewController.m in Sources */,
+				AEC7C5421C0E53F600DF9A52 /* main.m in Sources */,
+				AEC7C55D1C0E680D00DF9A52 /* AOAPI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEC7C5491C0E53F600DF9A52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEC7C54A1C0E53F600DF9A52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEC7C54E1C0E53F600DF9A52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEC7C54F1C0E53F600DF9A52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEC7C5521C0E53F600DF9A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AEC7C5531C0E53F600DF9A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEC7C5551C0E53F600DF9A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C553364D403EB9C343E38C8 /* Pods-GingaOne-SpiderMan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GingaOne-SpiderMan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arianeoliveira.SpiderMan;
+				PRODUCT_NAME = SpiderMan;
+			};
+			name = Debug;
+		};
+		AEC7C5561C0E53F600DF9A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B9F1B5630E349ACBF82F6AA /* Pods-GingaOne-SpiderMan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GingaOne-SpiderMan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = arianeoliveira.SpiderMan;
+				PRODUCT_NAME = SpiderMan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEC7C5381C0E53F600DF9A52 /* Build configuration list for PBXProject "SpiderMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC7C5521C0E53F600DF9A52 /* Debug */,
+				AEC7C5531C0E53F600DF9A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC7C5541C0E53F600DF9A52 /* Build configuration list for PBXNativeTarget "SpiderMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC7C5551C0E53F600DF9A52 /* Debug */,
+				AEC7C5561C0E53F600DF9A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEC7C5351C0E53F600DF9A52 /* Project object */;
+}

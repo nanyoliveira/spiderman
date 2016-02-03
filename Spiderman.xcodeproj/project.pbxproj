@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46F16FBAF16FB1A0AA1271FB /* libPods-Spiderman.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D12740B58540E1AB16A2ED37 /* libPods-Spiderman.a */; };
 		AE7ECE2F1C61852500AB1E00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7ECE2E1C61852500AB1E00 /* main.m */; };
 		AE7ECE321C61852500AB1E00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7ECE311C61852500AB1E00 /* AppDelegate.m */; };
 		AE7ECE351C61852500AB1E00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7ECE341C61852500AB1E00 /* ViewController.m */; };
@@ -14,9 +15,17 @@
 		AE7ECE3B1C61852500AB1E00 /* Spiderman.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE7ECE391C61852500AB1E00 /* Spiderman.xcdatamodeld */; };
 		AE7ECE3D1C61852500AB1E00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE7ECE3C1C61852500AB1E00 /* Assets.xcassets */; };
 		AE7ECE401C61852500AB1E00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE7ECE3E1C61852500AB1E00 /* LaunchScreen.storyboard */; };
+		AE7ECE511C61858B00AB1E00 /* AOAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7ECE481C61858B00AB1E00 /* AOAPI.m */; };
+		AE7ECE521C61858B00AB1E00 /* AODetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7ECE4A1C61858B00AB1E00 /* AODetailsViewController.m */; };
+		AE7ECE531C61858B00AB1E00 /* AOMagazineList.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7ECE4C1C61858B00AB1E00 /* AOMagazineList.m */; };
+		AE7ECE541C61858B00AB1E00 /* AOMagazineThumbs.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7ECE4E1C61858B00AB1E00 /* AOMagazineThumbs.m */; };
+		AE7ECE551C61858B00AB1E00 /* AOMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7ECE501C61858B00AB1E00 /* AOMeViewController.m */; };
+		AE7ECE5C1C61865500AB1E00 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7ECE5B1C61865500AB1E00 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FD595771B4E52813CB30595 /* Pods-Spiderman.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spiderman.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spiderman/Pods-Spiderman.release.xcconfig"; sourceTree = "<group>"; };
+		638B340C4B320A997604361E /* Pods-Spiderman.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spiderman.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spiderman/Pods-Spiderman.debug.xcconfig"; sourceTree = "<group>"; };
 		AE7ECE2A1C61852500AB1E00 /* Spiderman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spiderman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE7ECE2E1C61852500AB1E00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE7ECE301C61852500AB1E00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +37,20 @@
 		AE7ECE3C1C61852500AB1E00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE7ECE3F1C61852500AB1E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE7ECE411C61852500AB1E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE7ECE471C61858B00AB1E00 /* AOAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOAPI.h; sourceTree = "<group>"; };
+		AE7ECE481C61858B00AB1E00 /* AOAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOAPI.m; sourceTree = "<group>"; };
+		AE7ECE491C61858B00AB1E00 /* AODetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AODetailsViewController.h; sourceTree = "<group>"; };
+		AE7ECE4A1C61858B00AB1E00 /* AODetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AODetailsViewController.m; sourceTree = "<group>"; };
+		AE7ECE4B1C61858B00AB1E00 /* AOMagazineList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOMagazineList.h; sourceTree = "<group>"; };
+		AE7ECE4C1C61858B00AB1E00 /* AOMagazineList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOMagazineList.m; sourceTree = "<group>"; };
+		AE7ECE4D1C61858B00AB1E00 /* AOMagazineThumbs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOMagazineThumbs.h; sourceTree = "<group>"; };
+		AE7ECE4E1C61858B00AB1E00 /* AOMagazineThumbs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOMagazineThumbs.m; sourceTree = "<group>"; };
+		AE7ECE4F1C61858B00AB1E00 /* AOMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOMeViewController.h; sourceTree = "<group>"; };
+		AE7ECE501C61858B00AB1E00 /* AOMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOMeViewController.m; sourceTree = "<group>"; };
+		AE7ECE581C61860400AB1E00 /* AOAPIProtocolListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AOAPIProtocolListener.h; sourceTree = "<group>"; };
+		AE7ECE5A1C61865500AB1E00 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		AE7ECE5B1C61865500AB1E00 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		D12740B58540E1AB16A2ED37 /* libPods-Spiderman.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Spiderman.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +58,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46F16FBAF16FB1A0AA1271FB /* libPods-Spiderman.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73FB7ECBBD678EC304EB1083 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D12740B58540E1AB16A2ED37 /* libPods-Spiderman.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE7ECE211C61852500AB1E00 = {
 			isa = PBXGroup;
 			children = (
 				AE7ECE2C1C61852500AB1E00 /* Spiderman */,
 				AE7ECE2B1C61852500AB1E00 /* Products */,
+				F9BCC7241B1AA4B25D44511A /* Pods */,
+				73FB7ECBBD678EC304EB1083 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +94,9 @@
 		AE7ECE2C1C61852500AB1E00 /* Spiderman */ = {
 			isa = PBXGroup;
 			children = (
+				AE7ECE591C61861500AB1E00 /* thumbs */,
+				AE7ECE571C6185C800AB1E00 /* api */,
+				AE7ECE561C6185B300AB1E00 /* views */,
 				AE7ECE301C61852500AB1E00 /* AppDelegate.h */,
 				AE7ECE311C61852500AB1E00 /* AppDelegate.m */,
 				AE7ECE331C61852500AB1E00 /* ViewController.h */,
@@ -82,6 +119,49 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AE7ECE561C6185B300AB1E00 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				AE7ECE4F1C61858B00AB1E00 /* AOMeViewController.h */,
+				AE7ECE501C61858B00AB1E00 /* AOMeViewController.m */,
+				AE7ECE5A1C61865500AB1E00 /* BaseViewController.h */,
+				AE7ECE5B1C61865500AB1E00 /* BaseViewController.m */,
+				AE7ECE4B1C61858B00AB1E00 /* AOMagazineList.h */,
+				AE7ECE4C1C61858B00AB1E00 /* AOMagazineList.m */,
+				AE7ECE491C61858B00AB1E00 /* AODetailsViewController.h */,
+				AE7ECE4A1C61858B00AB1E00 /* AODetailsViewController.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		AE7ECE571C6185C800AB1E00 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				AE7ECE581C61860400AB1E00 /* AOAPIProtocolListener.h */,
+				AE7ECE471C61858B00AB1E00 /* AOAPI.h */,
+				AE7ECE481C61858B00AB1E00 /* AOAPI.m */,
+			);
+			name = api;
+			sourceTree = "<group>";
+		};
+		AE7ECE591C61861500AB1E00 /* thumbs */ = {
+			isa = PBXGroup;
+			children = (
+				AE7ECE4D1C61858B00AB1E00 /* AOMagazineThumbs.h */,
+				AE7ECE4E1C61858B00AB1E00 /* AOMagazineThumbs.m */,
+			);
+			name = thumbs;
+			sourceTree = "<group>";
+		};
+		F9BCC7241B1AA4B25D44511A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				638B340C4B320A997604361E /* Pods-Spiderman.debug.xcconfig */,
+				0FD595771B4E52813CB30595 /* Pods-Spiderman.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE7ECE441C61852500AB1E00 /* Build configuration list for PBXNativeTarget "Spiderman" */;
 			buildPhases = (
+				8F9180D45A49258211E874F4 /* Check Pods Manifest.lock */,
 				AE7ECE261C61852500AB1E00 /* Sources */,
 				AE7ECE271C61852500AB1E00 /* Frameworks */,
 				AE7ECE281C61852500AB1E00 /* Resources */,
+				B08BD950489AFD900AE7E0D7 /* Embed Pods Frameworks */,
+				882244B9E95F6397C9CFC6B2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -147,15 +230,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		882244B9E95F6397C9CFC6B2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spiderman/Pods-Spiderman-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F9180D45A49258211E874F4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B08BD950489AFD900AE7E0D7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spiderman/Pods-Spiderman-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE7ECE261C61852500AB1E00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AE7ECE351C61852500AB1E00 /* ViewController.m in Sources */,
+				AE7ECE5C1C61865500AB1E00 /* BaseViewController.m in Sources */,
+				AE7ECE551C61858B00AB1E00 /* AOMeViewController.m in Sources */,
+				AE7ECE521C61858B00AB1E00 /* AODetailsViewController.m in Sources */,
 				AE7ECE3B1C61852500AB1E00 /* Spiderman.xcdatamodeld in Sources */,
+				AE7ECE531C61858B00AB1E00 /* AOMagazineList.m in Sources */,
+				AE7ECE541C61858B00AB1E00 /* AOMagazineThumbs.m in Sources */,
 				AE7ECE321C61852500AB1E00 /* AppDelegate.m in Sources */,
 				AE7ECE2F1C61852500AB1E00 /* main.m in Sources */,
+				AE7ECE511C61858B00AB1E00 /* AOAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +400,7 @@
 		};
 		AE7ECE451C61852500AB1E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 638B340C4B320A997604361E /* Pods-Spiderman.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Spiderman/Info.plist;
@@ -274,6 +412,7 @@
 		};
 		AE7ECE461C61852500AB1E00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD595771B4E52813CB30595 /* Pods-Spiderman.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Spiderman/Info.plist;
@@ -302,6 +441,7 @@
 				AE7ECE461C61852500AB1E00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
